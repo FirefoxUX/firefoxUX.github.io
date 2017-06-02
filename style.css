@@ -4,6 +4,7 @@
   --blue-70: #003eaa;
   --blue-80: #002275;
   --blue-90: #000f40;
+  --magenta-70: #b5007f;
 }
 
 body { 
@@ -32,7 +33,7 @@ section {
 }
 
 section:hover, section:active, section:focus {
-  background-color: #b5007f!important;
+  background-color: var(--magenta-70)!important;
 }
 
 p {
