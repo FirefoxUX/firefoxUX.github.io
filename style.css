@@ -31,6 +31,10 @@ section {
   height: calc(25vh - 2rem - 12.5px);
 }
 
+section:hover, section:active, section:focus {
+  background-color: #b5007f!important;
+}
+
 p {
   display: inline-block;
   margin: 0 .5rem 0 0;
