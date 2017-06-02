@@ -1,2 +1,3 @@
-# firefoxUX.github.io
-Firefox UX Hub
+# design.firefox.com
+
+Firefox Design Hub

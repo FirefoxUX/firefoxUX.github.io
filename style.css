@@ -1,0 +1,77 @@
+:root {
+  --blue-50: #0a84ff;
+  --blue-60: #0060df;
+  --blue-70: #003eaa;
+  --blue-80: #002275;
+  --blue-90: #000f40;
+  --magenta-70: #b5007f;
+}
+
+body { 
+  margin: 0;
+  font-family: "Fira Sans";
+  color: white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 1rem;
+  height: calc(25vh - 2rem - 12.5px);
+}
+
+section:hover, section:active, section:focus {
+  background-color: var(--magenta-70)!important;
+}
+
+p {
+  display: inline-block;
+  margin: 0 .5rem 0 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  transition: all 0.3s cubic-bezier(.07,.95,0,1);
+}
+
+img {
+  height: 1rem;
+  width: 1rem;
+}
+
+@media screen and (min-width: 30em) {
+  section {
+    padding: 2rem;
+    height: calc(25vh - 4rem - 12.5px);
+  }
+
+  p {
+    font-size: 2.25rem;
+    margin-right: 1rem;
+  }
+
+  img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  p {
+    font-size: 3rem;
+  }
+  img {
+    height: 2rem;
+    width: 2rem;
+  }
+}
