@@ -29,7 +29,7 @@ header {
 
 section {
   padding: 1rem;
-  height: calc(25vh - 2rem - 12.5px);
+  height: calc(20vh - 2rem - 10px);
 }
 
 section:hover, section:active, section:focus {
@@ -52,7 +52,7 @@ img {
 @media screen and (min-width: 30em) {
   section {
     padding: 2rem;
-    height: calc(25vh - 4rem - 12.5px);
+    height: calc(20vh - 4rem - 10px);
   }
 
   p {
