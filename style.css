@@ -5,6 +5,7 @@
   --blue-80: #002275;
   --blue-90: #000f40;
   --magenta-70: #b5007f;
+  --number-of-sections: 5;
 }
 
 body { 
@@ -20,6 +21,22 @@ a {
   text-decoration: none;
 }
 
+#contents > a > section {
+  background-color: var(--blue-50);
+}
+#contents > a:nth-child(2) > section {
+  background-color: var(--blue-60);
+}
+#contents > a:nth-child(3) > section {
+  background-color: var(--blue-70);
+}
+#contents > a:nth-child(4) > section {
+  background-color: var(--blue-80);
+}
+#contents > a:nth-child(5) > section {
+  background-color: var(--blue-90);
+}
+
 header {
   padding: 1rem 2rem;
   text-transform: uppercase;
@@ -29,7 +46,7 @@ header {
 
 section {
   padding: 1rem;
-  height: calc(20vh - 2rem - 10px);
+  height: calc(100vh / var(--number-of-sections) - 2rem - 50px / var(--number-of-sections));
 }
 
 section:hover, section:active, section:focus {
@@ -52,7 +69,7 @@ img {
 @media screen and (min-width: 30em) {
   section {
     padding: 2rem;
-    height: calc(20vh - 4rem - 10px);
+    height: calc(100vh / var(--number-of-sections) - 4rem - 50px / var(--number-of-sections));
   }
 
   p {
