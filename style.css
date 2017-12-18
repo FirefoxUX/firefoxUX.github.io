@@ -61,6 +61,20 @@ p {
   transition: all 0.3s cubic-bezier(.07,.95,0,1);
 }
 
+p::after {
+  background-image: url(open-in-new-16.svg);
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: -3px;
+  vertical-align: middle;
+  width: 16px;
+}
+
 img {
   height: 1rem;
   width: 1rem;
@@ -74,12 +88,14 @@ img {
 
   p {
     font-size: 2.25rem;
-    margin-right: 1rem;
   }
 
-  img {
-    height: 1.5rem;
-    width: 1.5rem;
+  p::after {
+    background-size: 24px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: -2px;
+    width: 24px;
   }
 }
 
@@ -87,8 +103,11 @@ img {
   p {
     font-size: 3rem;
   }
-  img {
-    height: 2rem;
-    width: 2rem;
+
+  p::after {
+    background-size: 32px;
+    height: 32px;
+    margin-left: 24px;
+    width: 32px;
   }
 }
