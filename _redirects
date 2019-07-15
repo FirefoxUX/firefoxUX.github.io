@@ -1,6 +1,6 @@
+/photon			/photon/								301!
 /photon/*		https://firefox-ux-photon-mozilla-it.netlify.com/:splat			200
-/photon			/photon/								301
+/values			/values/								301!
 /values/*		https://firefox-ux-values-mozilla-it.netlify.com/:splat			200
-/values			/values/								301
+/product-identity	/product-identity/							301!
 /product-identity/*	https://firefox-ux-product-identity-mozilla-it.netlify.com/:splat	200
-/product-identity	/product-identity/							301
