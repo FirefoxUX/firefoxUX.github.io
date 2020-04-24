@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Firefox - Global</title>
+    <description>Sketch Library containing the foundational elements of the Firefox Design System.</description>
+    <image>
+      <url>https://design.firefox.com/sketch-libraries/image-previews/preview-firefox-global.png</url>
+      <title>Firefox - Global</title>
+    </image>
+    <generator>Sketch</generator>
+    <item>
+      <title>Firefox - Global</title>
+      <pubDate>Fri, 24 Apr 2020 12:00:00 +0000</pubDate>
+      <enclosure url="https://design.firefox.com/sketch-libraries/Firefox-Library-Global.sketch" type="application/octet-stream" sparkle:version="1"/>
+    </item>
+  </channel>
+</rss>
